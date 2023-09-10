@@ -9,6 +9,7 @@ let fn = () => {
             i = 0;
         }
         box.style.backgroundColor = color[i];
+        console.log(i)
     }, 1000)
 }
 fn()

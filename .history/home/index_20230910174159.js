@@ -1,5 +1,5 @@
 let box = document.querySelector(".box");
-let color = ["red", "blue", "green", "skyblue", "pink"];
+let color = ["red", "bule", "green", "skyblue", "pink"];
 let i = 0;
 let fn = () => {
     box.style.backgroundColor = color[i];
@@ -8,7 +8,8 @@ let fn = () => {
         if (i == color.length) {
             i = 0;
         }
-        box.style.backgroundColor = color[i];
+        box.style.backgroundColor = "bule";
+        console.log(i)
     }, 1000)
 }
 fn()
